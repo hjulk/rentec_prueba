@@ -1,0 +1,105 @@
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto; }
+    @media (min-width: 576px) {
+      .container {
+        max-width: 540px; } }
+    @media (min-width: 768px) {
+      .container {
+        max-width: 720px; } }
+    @media (min-width: 992px) {
+      .container {
+        max-width: 960px; } }
+    @media (min-width: 1200px) {
+      .container {
+        max-width: 1140px; } }
+.top-bar{
+    background: rgba(1,38,90) !important;
+}
+.float-right {
+    float: right !important;
+}
+.float-left {
+    float: left !important;
+}
+.icon-facebook,.icon-linkedin{
+    color: white;
+}
+.nav-link{
+    color: black;
+    font-weight: 700 !important;
+}
+#nav-link-home{
+    color: rgba(162,189,200) !important;
+}
+#logoNavbar{
+    width:15%;
+    position:absolute;
+    margin-top:0
+}
+.rentec-prueba-1{
+    background-size:cover;
+    background-position:center center;
+    background-repeat:no-repeat
+}
+.rentec-prueba-1,.rentec-prueba-1 .container>.row{
+    height:80vh;
+    min-height:600px
+}
+.rentec-prueba-1>.container{
+    position:relative
+}
+.rentec-prueba-1.overlay{
+    position:relative;
+    background-image:url('../img/truck.jpg');
+}
+.rentec-prueba-1.overlay:before{
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    opacity:.40;
+    background:rgba(4,95,140);
+    background:-moz-linear-gradient(45deg,rgba(4,95,140) 0,#17a2b8 100%);
+    background:-webkit-gradient(left bottom,right top,color-stop(0,rgba(4,95,140)),color-stop(100%,#00d9ff));
+    background:-webkit-linear-gradient(45deg,rgba(4,95,140) 0,#17a2b8 100%);
+    background:-o-linear-gradient(45deg,rgba(4,95,140) 0,#17a2b8 100%);
+    background:-ms-linear-gradient(45deg,rgba(4,95,140) 0,#17a2b8 100%);
+    background:linear-gradient(45deg,rgba(4,95,140) 0,#17a2b8 100%)
+}
+#firstSection{
+    align-self: center;
+    color: white !important;
+}
+#titulo{
+    font-weight: 800;
+    font-size: -webkit-xxx-large;
+    color: white !important;
+}
+#parrafo{
+    font-size: x-large;
+    color: white !important;
+}
+#formulario{
+    align-self: center;
+    background: #fff;
+    border-radius: 10px;
+}
+.margin-formulario{
+    padding: 3rem !important;
+}
+.label{
+    color: rgba(1,38,90);
+    font-weight: 800;
+}
+.wrapper {
+    width: 100%;
+}
+#refered{
+    display: none;
+}
