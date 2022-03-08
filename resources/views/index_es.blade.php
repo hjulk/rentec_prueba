@@ -18,7 +18,7 @@
                 </div>
                 <div class="col-md-1"></div>
                 <div class="col-md-7 float-right margin-formulario" id="formulario">
-                    <form action="#" id="form-contacto" method="post" autocomplete="off">
+                    <form action="#" id="form-contacto-es" method="post" autocomplete="off">
                         <div class="form-group row">
                             <div class="col-md-12">
                                 <label class="label" for="names">Nombres *</label>
