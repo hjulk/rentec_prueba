@@ -1,7 +1,7 @@
 $(document).ready(function () {
     $(".referred_1").click(function (evento) {
 
-        var valor = $(this).val();
+        let valor = $(this).val();
 
         if (valor == 1) {
             document.getElementById("refered").style.display = "block";

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<html lang="fr">
     <head>
         <title>FactorTeck @yield('titulo')</title>
         <meta charset="utf-8">
@@ -15,12 +15,12 @@
     <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 
         <div class="site-wrap" id="home-section">
-            @include("topbar")
-            @include("menu")
+            @include("topbar_fr")
+            @include("menu_fr")
             <div class="">
                 @yield("contenido")
             </div>
-            @include("footer")
+            @include("footer_fr")
             <script src="{{asset("js/jquery.slim.min.js")}}"></script>
             <script src="{{asset("js/jquery-migrate.min.js")}}"></script>
             <script src="{{asset("js/popper.min.js")}}"></script>

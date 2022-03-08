@@ -16,3 +16,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('index');
 });
+Route::get('espanol', function () {
+    return view('index_es');
+});
+Route::get('frances', function () {
+    return view('index_fr');
+});

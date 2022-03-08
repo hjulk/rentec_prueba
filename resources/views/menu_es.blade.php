@@ -7,20 +7,20 @@
             <div class="col-12">
                 <nav class="site-navigation text-right ml-auto " role="navigation">
                     <ul class="site-menu main-menu js-clone-nav ml-auto d-none d-lg-block">
-                        <li><a href="{{ url('/') }}" class="nav-link">HOME</a></li>
+                        <li><a href="{{ url('/') }}" class="nav-link">INICIO</a></li>
                         <li class="has-children">
-                            <a href="#" class="nav-link">FINANCIAL SOLUTIONS</a>
+                            <a href="#" class="nav-link">SOLUCIONES FINANCIERAS</a>
                             <ul class="dropdown arrow-top">
-                                <li><a href="#" class="nav-link">FINANCIAL 1</a></li>
-                                <li><a href="#" class="nav-link">FINANCIAL 2</a></li>
-                                <li><a href="#" class="nav-link">FINANCIAL 3</a></li>
+                                <li><a href="#" class="nav-link">SOLUCIÓN 1</a></li>
+                                <li><a href="#" class="nav-link">SOLUCIÓN 2</a></li>
+                                <li><a href="#" class="nav-link">SOLUCIÓN 3</a></li>
                             </ul>
                         </li>
-                        <li><a href="#" class="nav-link">ABOUT US</a></li>
-                        <li><a href="#" class="nav-link">FAQs</a></li>
-                        <li><a href="#" class="nav-link">REFERRALS</a></li>
-                        <li><a href="#" class="nav-link">GET STARTED</a></li>
-                        <li><a href="#" class="nav-link">CONTAC US</a></li>
+                        <li><a href="#" class="nav-link">NOSOTROS</a></li>
+                        <li><a href="#" class="nav-link">PREGUNTAS FRECUENTES</a></li>
+                        <li><a href="#" class="nav-link">REFERENCIAS</a></li>
+                        <li><a href="#" class="nav-link">EMPEZAR</a></li>
+                        <li><a href="#" class="nav-link">CONTÁCTENOS</a></li>
                     </ul>
                 </nav>
             </div>

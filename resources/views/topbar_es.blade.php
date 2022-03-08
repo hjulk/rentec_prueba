@@ -4,7 +4,7 @@
             <div class="col-12">
                 <div class="float-right">
                     <span class="mx-md-2 d-inline-block"></span>
-                    <a href="{{ url('espanol') }}" ><img src="{{ asset('img/spain.png') }}" alt="" id="flagTopbar"> ES</a>
+                    <a href="{{ url('/') }}" ><img src="{{ asset('img/usa.png') }}" alt="" id="flagTopbar"> EN</a>
                     <span class="mx-md-2 d-inline-block"></span>
                     <a href="{{ url('frances') }}" ><img src="{{ asset('img/france.png') }}" alt="" id="flagTopbar"> FR</a>
                     <span class="mx-md-2 d-inline-block"></span>
